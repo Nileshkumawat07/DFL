@@ -1,0 +1,4 @@
+FROM python:latest
+COPY . /dfl
+WORKDIR /dfl
+CMD python dfl.py
